@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>toNieNauka</title>
+    </head>
+    <body>
+        <p>Hi there!</p>
+        <p>It works!</p>
+        {% for wpis in wpisy %}
+
+          <div>
+            <h1><a href="">{{ wpis.tytul }}</a></h1>
+            <h5>opublikowany: {{ wpis.data_publikacji }}</h5>
+            <p>{{ wpis.tresc|linebreaksbr }}</p>
+          </div>
+
+
+        {% endfor %}
+
+    </body>
+</html>

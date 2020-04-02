@@ -1,0 +1,4 @@
+python3 -m venv myvenv		<--- robi wirtualne  "myvenv"
+myvenv\Scripts\activate		<--- odpala wirtualne środowisko "myvenv"
+
+python manage.py runserver	<--- uruchamia server www na kompie
