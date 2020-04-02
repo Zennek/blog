@@ -1,8 +1,11 @@
+{% load staticfiles %}
 <html>
     <head>
         <title>toNieNauka</title>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
+
         <p>Hi there!</p>
         <p>It works!</p>
         {% for wpis in wpisy %}
