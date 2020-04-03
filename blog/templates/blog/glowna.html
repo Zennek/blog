@@ -4,7 +4,7 @@
         {% for wpis in wpisy %}
 
               <div class="wpis">
-                <h1><a href="{% url 'wpis' pk=wpis.pk %}">{{ wpis.tytul }}</a></h1>
+                <h1><a href="{% url 'wpis_wpis' pk=wpis.pk %}">{{ wpis.tytul }}</a></h1>
                   <div class="date">
                     <h5>opublikowany: {{ wpis.data_publikacji }}</h5>
                   </div>
