@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.glowna, name='glowna'),
-    path('wpis_wpis/<int:pk>/', views.wpis_wpis, name='wpis_wpis'),
+    path('wpis/<int:pk>/', views.wpis_wpis, name='wpis_wpis'),
 ]
