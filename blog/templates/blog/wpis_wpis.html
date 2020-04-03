@@ -3,14 +3,14 @@
 {% block content %}
     <div class="wpis">
 
-        <h1><a href="{% url 'glowna' %}">{{ wpis.tytul }}</a></h1>
+        <h1><a href="/">{{ wpis.tytul }}</a></h1>
 
           {% if wpis.data_publikacji %}
             <div class="date">
                 <h5>opublikowany: {{ wpis.data_publikacji }}</h5>
             </div>
           {% endif %}
-
+#nie wiem co tu kurwa wpisac
         <p>{{ wpis.tresc|linebreaksbr }}</p>
     </div>
 {% endblock %}
