@@ -1,19 +1,21 @@
 h1 a {
-color: #FCA205;
+color: #bbA20bb
 }
 
 body {
 padding-left: 15px;
+background-color: #abcdef;
 }
 
 .page-header {
-    background-color: #C25100;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    position: fixed;
+    top: 0;
+    background-color: #abcdef;
+    padding: 0px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #aaaaaa;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -51,4 +53,78 @@ h1, h2, h3, h4 {
 
 .wpis h2 a, .wpis h1 a:visited {
     color: #000000;
+}
+
+.myButton {
+	box-shadow: 0px 9px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:3px;
+	border:2px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:0px;
+}
+
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	position: fixed;
+  top: 90px;
+}
+
+ul li {
+	float: left;
+	border-width: 0 0px 0px 0px;
+	border-style: solid;
+	border-color: transparent #25b #25b #9ce;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 95px;
+	text-align: center;
+	padding: 5px 0;
+	font-weight: bold;
+	background-color: #72b352;
+	color: #def;
+	border-top: 10px solid #4b8f29;
+}
+
+ul a:hover {
+	background-color: #72b352;
+	color: #fff;
+	border-top: 12px solid #4b8f29;
+}
+
+.main_menu {
+  margin-left: 40px;
+}
+
+.zawartosc {
+    position: static;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
